@@ -1,0 +1,161 @@
+.layout_dashboard {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-template-rows: 11vh 80vh 9vh;
+    grid-template-areas: 'header header'
+                                      'nav main'
+                                      'footer footer';
+    font-family: 'Roboto';
+    background-color: #F3F3F3;
+}
+
+.container_list_search_user {
+    background-color: #fff;
+    padding: 15px; 
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+}
+
+.container_list_search_user:hover {
+    background-color: #dad0d0;
+    cursor: pointer;
+}
+
+.font_name_user_search {
+    margin-left: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.emptyListContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchingUserContainer {
+    height: 100%;
+    width: 100%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.fontSearchingUser {
+    font-family: 'Inter';
+}
+
+.emptyListIcon {
+    margin-top: 100px;
+}
+
+.font_localization_user_search {
+    margin-left: 5px;
+    color: #857e7e;
+}
+
+.icon_add_user_search:hover {
+    color: #3d78cf;
+}
+
+.layout_dashboard header {
+    grid-area: header;
+    align-self: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+.layout_dashboard main {
+    grid-area: main;
+}
+
+.layout_dashboard nav {
+    grid-area: nav;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    margin-left: 3%;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 81, 175, 0.1);
+    border-radius: 10px;
+}
+
+.avatar_user {
+    margin-top: 20px;
+}
+
+.layout_dashboard footer {
+    grid-area: footer;
+    width: 86vw;
+    margin-right: 2%;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.total_users > :first-child {
+    font-weight: 600;
+}
+
+.total_users > :last-child {
+    color: #818181;
+}
+
+.flex_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_bottom_icons {
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.nav_middle_icons {
+    margin-top: 100%;
+}
+
+.nav_item {
+    height: 35px;
+    align-self: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+}
+
+.nav_item:hover {
+    background-color: #999191;
+    border-radius: 10px;
+}
+
+.btn_upload_img {
+    padding: 10px;
+    align-self: center;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #EAF3FF;
+    width: 100px;
+}
+
+.btn_upload_img span {
+    font-family: 'Inter';
+}
+
+.btn_img_upload_photo {
+    margin-right: 10px;
+}
+
+.background_nav_item {
+    background: #73a4ec;
+    border-radius: 10px;
+}

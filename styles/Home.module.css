@@ -1,0 +1,227 @@
+.first_line_module {
+    height: 70px;
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: column;
+    font-family: 'Roboto';
+    justify-content: center;
+    width: 27.8vw;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 81, 175, 0.1);
+    border-radius: 10px;
+}
+
+.font_name_solicitation_for {
+    margin-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.avatar_name_solicitation_for {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 75%;
+    margin-left: 5%;
+}
+
+.second_line_module {
+    margin-top: 2%;
+    height: 61vh;
+    margin-left: 2%;
+    box-shadow: 0px 1px 3px rgba(0, 81, 175, 0.1);
+    border-radius: 10px;
+    width: 27.8vw;
+    background-color: #FFFFFF;
+}
+
+.font_item_username_solicitation {
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.item_notifications {
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 90%;
+    padding: 15px;
+    background-color: #e9e0e0;
+    border-radius: 15px;
+}
+
+.icon_check_item_notification {
+    cursor: pointer;
+    margin-left: auto;
+    margin-bottom: 20px;
+    color: green;
+}
+
+.font_item_notification {
+    margin-left: 10px;
+    font-family: 'Nunito';
+}
+
+.container_list_solicitation_notification {
+    max-height: 72vh;
+}
+
+.container_item_solicitations {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #e9e0e0;
+}
+
+.solicitations_for_length_indicator {
+    height: 25px;
+    color: white;
+    width: 25px;
+    font-size: 8;
+    background-color: #73a4ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-right: 6%;
+}
+
+.connections_module {
+    height: 54vh;
+    margin-left: 2%;
+    box-shadow: 0px 1px 3px rgba(0, 81, 175, 0.1);
+    border-radius: 10px;
+    width: 27.8vw;
+    background-color: #FFFFFF;
+}
+
+.connections_module h1 {
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 10px;
+    padding-left: 20px;
+    color: #9F9F9F;
+}
+
+.font_author_comment {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.item_list_container {
+    width: 95%;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    background-color: #F3F3F3;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item_comment_container {
+    margin-bottom: 20px;
+    width: 50vw;
+    padding: 15px;
+    background-color: #FFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second_line_module h1 {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 20px;
+    margin-left: 25px;
+    color: #9F9F9F;
+}
+
+.total_users_module {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar_name_all_users {
+    display: flex;
+    flex-direction: row;
+}
+
+.avatar_name_all_users span {
+    font-family: 'Inter';
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: 600;
+    align-self: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.footer_item_list {
+    margin: 10px;
+}
+
+.footer_item_list span {
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: 0.95em;
+}
+
+.item_state_connection_user {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 80%;
+    height: 20px;
+}
+
+.lists_container {
+    margin-left: auto;
+    margin-right: 6%;
+    padding-right: 20px;
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+.list_container_connections_user {
+    margin-left: auto;
+    margin-right: 6%;
+    height: 43.5vh;
+    padding-right: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.avatar_name_comment {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.font_author_name {
+    margin-left: 10px;
+}
+
+.likes_icons:hover {
+    color: #73a4ec;
+    cursor: pointer;
+}
+
+.comment_font {
+    margin: 15px;
+    margin-top: 0px;
+    color: #857e7e;
+    font-style: italic;
+    font-size: 1em;
+}
+
+.likes_comment {
+    margin-left: auto;
+    margin-right: 10px;
+    align-self: center;
+}
