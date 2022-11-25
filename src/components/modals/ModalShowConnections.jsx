@@ -6,13 +6,13 @@ export default function ModalShowConnections({ React, visibleModalShowConnection
     return (
         <Modal
             css={{ backgroundColor: '#f3eded' }}
-            width={'38vw'}
+            width={'40vw'}
             open={visibleModalShowConnection}
             onClose={() => setVisibleModalShowConnection(false)}
         >
-            <Modal.Footer>
+            <Modal.Header>
                 <h1 className='font_title_modals'>Suas conexões</h1>
-            </Modal.Footer>
+            </Modal.Header>
             <Modal.Body>
                 <ModalListConnections styles={styles} connections={userConnections} />
             </Modal.Body>

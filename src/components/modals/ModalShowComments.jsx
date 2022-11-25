@@ -1,10 +1,7 @@
-import { Modal, Row, Input } from "@nextui-org/react"
+import { Modal } from "@nextui-org/react"
 import ModalListComments from "../../lists/ModalListComments"
-import { BsSearch } from 'react-icons/bs'
 
 export default function ModalShowComments({ React, visibleModalShowComments, setVisibleModalShowComments, styles, data }) {
-
-    const [search, setSearch] = React.useState(false)
 
     return (
         <Modal
