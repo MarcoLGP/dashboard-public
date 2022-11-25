@@ -14,6 +14,7 @@ Tabela de conteúdos
 <!--ts-->
    * [Sobre](#Sobre)
    * [Aprendizado](#Aprendizado)
+   * [🚧Responsividade🚧](#Responsividade)
    * [Considerações Finais](#Considerações-finais)
 <!--te-->
 
@@ -24,6 +25,9 @@ Tabela de conteúdos
 <h1 id="Aprendizado">Aprendizado</h1>
 <p>Através deste projeto exercitei bastante minha lógica, e para mim foi bastante desafiador, é um projeto relativamente grande e ainda não tive tempo de finalizar a responsividade.</p>
 <p>Entrei em contato pela primeira vez com a tecnologia do Next.js e foi amor a primeira vista, está sendo para mim até então o framework que mais estou gostando de desenvolver.</p>
+
+<h1 id="Responsividade">🚧Responsividade🚧</h1>
+<p>Por se tratar de um projeto relativamente grande para uma pessoa, ainda não tive tempo de desenvolver a responsividade para aparelhos menores, futuramente com mais tempo planejo finalizar o projeto.</p>
 
 <h1 id="#Considerações-finais">Considerações finais</h1>
 <p>O usuário através da comunidade pode: escrever comentários, curtir e não curtir comentários, alterar sua foto, adicionar amigos, buscar novos amigos, saber o estado e o país de outros usuários através de geocoding reverse, entre outras mais coisas, tudo em tempo real !<p>
